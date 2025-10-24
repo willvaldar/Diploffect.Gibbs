@@ -1,0 +1,6 @@
+library(WVmisc)
+library(mnormt)
+library(coda)
+library(Matrix)
+
+reload <- function(){source("R/GibbsLmm.R"); source("R/Diploffect.R"); source("R/utils.R")}
