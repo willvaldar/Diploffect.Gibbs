@@ -132,7 +132,10 @@ Diploffect_Zupdater$methods(
   }
 )
         
-
-
+Diploffect_Zupdater$methods(
+  expect.prior.Z = function(){
+    .self$Dip.to.Z(.self$prob.D)
+  }
+)
 
 
